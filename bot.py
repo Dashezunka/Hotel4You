@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 def start(bot, update, chat_data):
     chat_data.clear()
-    update.message.reply_text('Здравствуйте')
+    update.message.reply_text('Здравствуйте!')
 
 if __name__ == '__main__':
     updater = Updater(config.TOKEN)
